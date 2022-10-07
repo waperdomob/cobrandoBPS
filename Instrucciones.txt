@@ -1,0 +1,21 @@
+***Instrucciones para la descarga del proyecto***
+
+1. Es recomendable tener instalado git en el computador, https://git-scm.com/download/win.
+2. Con git instalado podremos abrir la consola bash de git, esto con el fin de ejecutar los comandos como si fuera linux
+3. En la carpeta en donde se descargo la carpeta del proyecto abrimos gitbash (click derecho en el explorador de archivos
+ y click en Git Bash Here) NOTA: Esto se puede omitir si quiere hacerlo desde el cdm de windows.
+4. Una vez abierto el bash confirmamos tener python 3.9 o superior. 
+5. Se crea el entorno virtual con el comando: python -m venv env.
+6. Activamos el entorno virtual con el comando: source env/Scripts/activate
+7. nos desplazamos a la carpeta del proyecto con el comando:  cd cobrandoBPO
+8. Instalamos los modulos necesarios para el proyecto(Django, restframwork, etc) con el comando: pip install -r requirements.txt
+9. Ya podremos ejecutar el proyecto con python manage.py runserver, si se desea se puede crear un superuser desde el bash con:
+winpty python manage.py createsuperuser o desde cmd con python manage.py superuser.
+10. Al correr la aplicación no tiene restricciones por lo que no necesita estar logeado.
+11. Se creo el crud de departamentos para poder agregarlos y que así salgan en la app de empleado.
+12. La base de datos se llama cobrandoBPO, usuario: postgres, contraseña: 123456789 y el puerto de la db es: 5432 (el default)
+
+cualquier duda o inquietud comunicarse al 3043853865 - wilmerpb30@gmail.com
+Gracias por su atención. ATT: Wilmer Andrés Perdomo
+
+NOTA: También se puede clonar el proyecto desde github: git clone https://github.com/waperdomob/cobrandoBPS.git
